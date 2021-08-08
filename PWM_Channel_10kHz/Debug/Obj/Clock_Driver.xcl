@@ -1,14 +1,14 @@
-"G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel\Clock_Driver.c"
+"G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel_10kHz\Clock_Driver.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel\Debug\Obj\Clock_Driver.pbi.dep
+G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel_10kHz\Debug\Obj\Clock_Driver.pbi.dep
 -o
 Clock_Driver.pbi
 -I
-G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel
+G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel_10kHz
 -I
 G:\IAR\arm\inc
 -I
