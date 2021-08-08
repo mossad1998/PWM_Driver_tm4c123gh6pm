@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"G:\IAR\common\bin\cspybat" -f "G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel\settings\PWM_Driver_V2.Debug.general.xcl" --backend -f "G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel\settings\PWM_Driver_V2.Debug.driver.xcl" 
+"G:\IAR\common\bin\cspybat" -f "G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel_10kHz\settings\PWM_Driver_V2.Debug.general.xcl" --backend -f "G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel_10kHz\settings\PWM_Driver_V2.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"G:\IAR\common\bin\cspybat" -f "G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel\settings\PWM_Driver_V2.Debug.general.xcl" "--debug_file=%~1" --backend -f "G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel\settings\PWM_Driver_V2.Debug.driver.xcl" 
+"G:\IAR\common\bin\cspybat" -f "G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel_10kHz\settings\PWM_Driver_V2.Debug.general.xcl" "--debug_file=%~1" --backend -f "G:\Github\PWM_Driver_tm4c123gh6pm\PWM_Channel_10kHz\settings\PWM_Driver_V2.Debug.driver.xcl" 
 
 @echo off 
 :end
